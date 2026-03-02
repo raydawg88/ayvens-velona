@@ -1,0 +1,26 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Element Brand Logomark - Two overlapping electron orbit arcs -->
+  <defs>
+    <linearGradient id="element-gradient" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#BEFFFA"/>
+      <stop offset="50%" stop-color="#00D7D2"/>
+      <stop offset="100%" stop-color="#05AFDC"/>
+    </linearGradient>
+  </defs>
+  <!-- Left arc (electron orbit) -->
+  <path
+    d="M 20 3 C 10 3, 3 11, 3 20 C 3 29, 10 37, 20 37"
+    stroke="#05AFDC"
+    stroke-width="5"
+    fill="none"
+    stroke-linecap="round"
+  />
+  <!-- Right arc (electron orbit) -->
+  <path
+    d="M 20 3 C 30 3, 37 11, 37 20 C 37 29, 30 37, 20 37"
+    stroke="url(#element-gradient)"
+    stroke-width="5"
+    fill="none"
+    stroke-linecap="round"
+  />
+</svg>
